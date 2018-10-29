@@ -91,3 +91,43 @@
     transform: rotate(1turn);
   }
 }
+
+.ex-11-icon:hover{
+  animation: gira 2s linear
+}
+
+@keyframes gira {
+
+  0% {transform: rotate(0);}
+  10% {transform: rotate(35deg);}
+  20% {transform: rotate(70deg);}
+  30% {transform: rotate(105deg);}
+  40% {transform: rotate(140deg);}
+  50% {transform: rotate(175deg);}
+  60% {transform: rotate(210deg);}
+  70% {transform: rotate(245deg);}
+  80% {transform: rotate(280deg);}
+  90% {transform: rotate(315deg);}
+  100% {transform: rotate(0);}
+
+}
+
+.ex-12-button:hover .ex-12-top-white{
+  animation: top 2s linear;
+}
+
+@keyframes top {
+  0% {left: 10%;}
+  50% {left: 65%;}
+  100% {left: 10%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: bottom 2s linear;
+}
+
+@keyframes bottom {
+  0% {right: 10%;}
+  50% {right: 65%;}
+  100% {right: 10%;}
+}
