@@ -72,8 +72,7 @@
 .ex-9-img:hover{
   filter: grayscale(50%) sepia(50%);
   border-radius: 20px;
-  width: 600px;
-  height: auto;
+  transform: scale(1.5);
 }
 
  .ex-10-icon{
@@ -88,7 +87,7 @@
     transform: rotate(0);
   }
   100% {
-    transform: rotate(1turn);
+    transform: rotate(360deg); /* 1turn fa un giro*/
   }
 }
 
